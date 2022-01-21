@@ -1,0 +1,139 @@
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        /* header */
+        header{
+            width: 100%;
+            height: 100vh;
+        }
+
+        /* nav bar */
+
+        nav {
+            background-color: azure;
+            padding: 16px;
+            position: fixed;
+            width: 100%;
+            z-index: 99;
+            right: 0;
+            left: 0;
+        }
+
+        nav h4 {
+            display: inline;
+            margin-left: 16px;
+        }
+
+        #nav-container {
+            display: inline;
+            right: 0;
+            margin-right: 32px;
+            position: absolute;
+        }
+
+        .nav-item {
+            display: inline;
+            margin-right: 32px;
+        }
+        .nav-item a{
+            cursor: pointer;
+        }
+
+        /* banner */
+
+        #banner {
+            background: linear-gradient(rgb(48, 48, 53), transparent), green url("../images/main-cover.jpeg") no-repeat center/cover;
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+            /* position: fixed; */
+            background-attachment: fixed;
+            z-index: -1;
+
+        }
+        #banner-title {
+            text-align: center;
+            padding-top: 40vh;
+            color: rgb(235, 235, 243);
+        }
+
+        h1 {
+            color: white;
+
+        }
+
+        #banner-title p {
+            color: white;
+            margin-top: 16px;
+
+        }
+
+        #get-btn {
+            background-color: green;
+            color: white;
+            margin-top: 16px;
+            padding: 16px;
+            border-radius: 4px;
+            border-style: none;
+
+        }
+
+        /* content */
+        #content{
+            width: 100%;
+            height: 100vh;
+            background-color: cadetblue;
+        }
+        /* footer */
+
+        footer {
+            background-color: black;
+            width: 100%;
+            /* height: 230px; */
+            display: grid;
+            grid-template-rows: 230px;
+            grid-template-columns: repeat(3, 1fr);
+            /* position: fixed; */
+            /* grid-gap: 32px; */
+            /* top: 700px; */
+            bottom: 0;
+            left: 0;
+            right: 0;
+            /* z-index: -2; */
+            background-attachment: fixed;
+        }
+
+        .first,
+        .second,
+        .third {
+            display: inline;
+            /* background-color: green; */
+            margin-top: 16px;         
+        }
+        .first{
+            margin-left: 32px;
+        }
+        .second{
+            padding-left: 8px;
+        }
+        .third{
+            margin-right: 32px;
+        }
+        .orange{
+            color: orange;
+            font-size: 1.1em;
+        }
+        .white{
+            color:white;
+            font-size: 0.95em;
+        }
+        .first-white{
+            color: white;
+            font-size:0.8em; 
+        }
+        .first h4{
+            color: white;
+        }
